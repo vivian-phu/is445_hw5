@@ -11,19 +11,23 @@
         <h1>Midterm Exam</h1>
         <p>Find all prime numbers between two numbers</p>
     </div>
-    <form>
-        <label id="num1">
+    <div id="divForm">
+        <form>
+        <label for="num1">
             <span>Number 1:</span>
-            <input type="text" name="num1">
+            <input type="text" id="num1">
         </label>
-        <label id="num2">
+        <label for="num2">
             <span>Number 2:</span>
-            <input type="text" name="num2">
+            <input type="text" id="num2">
         </label>
         </br> </br> </br> </br> 
-        <button type="button" onclick="myFunction()">Submit</button>
+        <button type="button" onclick="primeNum()">Submit</button>
         
         </form>
-        
+        <h1 id="primeNumber"></h1>
+        <p id="msg"></p>
+    </div>
+    <script src="app.js"></script>    
 </body>
 </html>
