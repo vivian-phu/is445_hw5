@@ -8,7 +8,7 @@ function primeNum(){
     }
     else if (num1 >= 2 && num1 <= 100 && num2 >= 2 && num2 <= 100){
         calculatePrimeNum(num1,num2);
-        document.getElementById("msg").innerHTML = "";
+        //document.getElementById("msg").innerHTML = "";
     }
 }
 function isPrime(num){
@@ -56,5 +56,5 @@ function calculatePrimeNum(firstNum,secondNum){
     }
     console.log(pNumArray);
     document.getElementById("primeNumber").innerHTML = "There are " + pNumArray.length +" prime numbers.";
-    document.getElementById("msg").innterHTML = pNumArray;
+    document.getElementById("msg").innerHTML = pNumArray;
 }
