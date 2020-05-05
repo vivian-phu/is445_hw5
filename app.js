@@ -5,6 +5,7 @@ function primeNum(){
     // check if the numbers fit criteria
     if (num1 <= 2 || num1 >= 100 || num2 <= 2 || num2 >= 100){
         document.getElementById("msg").innerHTML = "Invalid input, please try again.";
+        document.getElementById("primeNumber").innerHTML = "";
     }
     else if (num1 >= 2 && num1 <= 100 && num2 >= 2 && num2 <= 100){
         calculatePrimeNum(num1,num2);
